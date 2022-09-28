@@ -1,0 +1,101 @@
+.head {
+    border-bottom: 3px solid coral;
+    border-radius: 4rem;
+  }
+  
+  .head p {
+    margin: 0px;
+    padding: 1rem;
+  }
+  
+  .speciality__container {
+    display: flex;
+  }
+  
+  .speciality__container p {
+    padding: 1%;
+  }
+  
+  .farmers {
+    width: 33%;
+  }
+  
+  .farmers img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .factory {
+    width: 33%;
+  }
+  
+  .factory img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .warehouse {
+    width: 33%;
+  }
+  
+  .warehouse img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .farmers,
+  .factory,
+  .warehouse {
+    border: 1px solid lightgrey;
+    margin: 1%;
+    border-radius: 2rem;
+  }
+  
+  .farmers:hover,
+  .factory:hover,
+  .warehouse:hover {
+    border: 1px solid coral;
+    box-shadow: 2px 2px coral;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .head p{
+      font-size: 4rem;
+    }
+
+    .speciality__container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .warehouse,.factory,.farmers{
+      width: 100%;
+    }
+  
+    .speciality__container p {
+      font-size: 0.9rem;
+    }
+  
+    .farmers,
+    .factory,
+    .warehouse {
+      border-radius: 2px;
+      border: 0px;
+    }
+  
+    .warehouse img,
+    .factory img,
+    .farmers img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .farmers:hover,
+    .factory:hover,
+    .warehouse:hover {
+      border: 2px solid coral;
+      box-shadow: 1px 2px coral;
+    }
+  
+    
+  }

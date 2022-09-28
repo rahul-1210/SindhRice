@@ -1,0 +1,58 @@
+.header {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    width: 40%;
+    margin: auto;
+    border-bottom: 2px solid rgb(201, 168, 86);
+  }
+  
+  .header__2 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+  
+  .flags {
+    display: flex;
+  }
+  
+  .flags img {
+    width: 50%;
+  }
+  
+  .logo__image {
+    width: 5%;
+  }
+  
+  .logo__image img {
+    width: 10%;
+  }
+  
+  .product_header {
+    display: flex;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .logo__image {
+      width: 15%;
+    }
+  
+    .logo__image img {
+      width: 35%;
+    }
+  
+    .header {
+      font-size: 1rem;
+      width: 50%;
+    }
+  
+    .header__2 {
+      font-size: 1.3rem;
+      font-weight: bolder;
+    }
+  
+    .flags img {
+      width: 70%;
+    }
+  }

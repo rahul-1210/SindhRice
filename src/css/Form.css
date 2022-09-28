@@ -1,0 +1,79 @@
+.discount__header {
+    background-image: url('../images/varietyrice.jpg');
+    border-radius: 2rem;
+  }
+  
+  .items__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .basket__container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .basket__container a {
+    width: 10%;
+  }
+  
+  .basket__container img {
+    width: 100%;
+    border-radius: 5rem;
+    border: 3px solid black;
+    margin-top: 5%;
+  }
+  
+  .subtotal {
+    text-align: right;
+    margin-right: 1rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-bottom: 2.5px solid black;
+    margin-top: 1%;
+  }
+  
+  .items {
+    text-align: right;
+    margin-right: 3%;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: 0.5%;
+  }
+  
+  .category button {
+    margin: 0.5%;
+    font-weight: 500;
+  }
+  
+  .category button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px black;
+  }
+  
+  .category__head {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-top: 1%;
+  }
+
+  .category{
+    margin-top: 1%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .items,
+    .subtotal {
+      font-size: 0.9rem;
+    }
+  
+    .basket__container a {
+      width: 20%;
+    }
+  
+    .category button {
+      font-size: 0.7rem;
+    }
+  }

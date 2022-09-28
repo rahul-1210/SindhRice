@@ -1,0 +1,42 @@
+.checkoutitem__box {
+    width: 40%;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    background-color: rgb(244, 252, 252);
+    border-bottom: 3px solid black;
+    border-radius: 3rem;
+  }
+  
+  .checkoutitem__box img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .price__checkout,.quantity__checkout {
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .description__checkout{
+    margin-top: 2%;
+  }
+  
+  .checkoutitem__box button {
+    width: 40%;
+    font-size: 0.9rem;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .checkoutitem__box {
+      width: 100%;
+    }
+    .checkoutitem__box img {
+      width: 40%;
+      height: 150px;
+    }
+  
+    .checkoutitem__box button {
+      width: 40%;
+      font-size: 0.7rem;
+    }
+  }

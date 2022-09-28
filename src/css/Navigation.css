@@ -1,0 +1,46 @@
+/* Aman jain css */
+
+/* Navigation start */
+.navbar {
+    padding: 0px;
+  }
+  
+  .navbar-brand {
+    width: 15%;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 1rem;
+  }
+  
+  .navbar-toggler {
+    color: white;
+  }
+  
+  .company__logo {
+    width: 10%;
+  }
+  
+  .part__one {
+    color: green;
+    font-weight: bolder;
+    font-size: 1.8rem;
+  }
+  
+  .part__two {
+    color: gold;
+    font-weight: bolder;
+    font-size: 1.8rem;
+  }
+  
+  .navbar-nav a:hover {
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    font-weight: 900;
+  }
+
+/* Navigation end */
+/* Speciality start */
+
+/* Speciality end */

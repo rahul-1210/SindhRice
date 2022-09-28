@@ -1,0 +1,46 @@
+.item__box {
+    width: 23%;
+    background-color: white;
+    margin: 0.8rem;
+    border-radius: 1rem;
+    border-bottom: 3px solid black;
+  }
+  button {
+    margin-bottom: 0.3rem;
+    margin-top: 4%;
+  }
+  
+  .item__box img {
+    width: 40%;
+    height: 100px;
+  }
+  
+  .price,.quantity {
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .description{
+    margin-top: 2%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .item__box {
+      width: 40%;
+    }
+  
+    .item__box img {
+      width: 80%;
+      height: 140px;
+    }
+  
+    .item__box p {
+      font-size: 0.8rem;
+    }
+  
+    .item__box button {
+      font-size: 0.8rem;
+      width: 80%;
+    }
+  }
+  

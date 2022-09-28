@@ -1,0 +1,47 @@
+.checkout__header {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .subtotal__header {
+    padding-top: 5%;
+    width: 50%;
+  }
+  
+  .checkout__header img {
+    width: 50%;
+  }
+  
+  .subtotal__header p {
+    font-weight: 800;
+    margin-top: 2%;
+  }
+  
+  .subtotal__header button {
+    background-color: rgb(51, 45, 45);
+    border-radius: 1rem;
+    color: white;
+    padding: 1%;
+  }
+  
+  .basket__header {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-left: 2%;
+    border-bottom: 2px solid yellow;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .subtotal__header p {
+      font-size: 0.8rem;
+    }
+  
+    .subtotal__header button {
+      font-size: 0.7rem;
+    }
+  
+    .basket__header {
+      font-size: 1.6rem;
+    }
+  }
